@@ -1,4 +1,4 @@
-// This will be the entry point for your Vercel Serverless Function
+
 module.exports = async (req, res) => {
   // First step: POST request to login endpoint to retrieve cookies
   const loginUrl = 'https://liaobots.work/recaptcha/api/login';
